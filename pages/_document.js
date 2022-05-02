@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   const meta = {
-    title: 'Doni Wirawan',
+    title: 'Doni Wirawan Personal Website',
     description: 'CS Student | Web Developer | 20',
     image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
   }
