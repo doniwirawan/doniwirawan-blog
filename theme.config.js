@@ -4,7 +4,6 @@ export default {
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © Doni Wirawan.
-      <a href="/feed.xml" className="social">RSS</a>
       <a href="https://twitter.com/doni_wirawans" className="social">Twitter</a>
       <a href="https://linkedin.com/doni_wirawans" className="social">Linkedin</a>
       <a href="https://github.com/doniwirawan" className="social">Github</a>
