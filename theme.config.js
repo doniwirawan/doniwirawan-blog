@@ -1,6 +1,11 @@
 const YEAR = new Date().getFullYear()
 
 export default {
+  titleSuffix: ' – Doni wirawan',
+  nextLinks: true,
+  prevLinks: true,
+  search: true,
+  darkMode: false,
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> <b>© Doni Wirawan.</b>
