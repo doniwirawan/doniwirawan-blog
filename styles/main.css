@@ -35,7 +35,7 @@ h6 {
 }
 h1 {
   font-variation-settings: 'wght' 850;
-  background: linear-gradient(90deg, rgba(174,14,227,1) 0%, rgba(0,212,255,1) 100%);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -65,15 +65,17 @@ img.next-image {
 
 .nav-line .nav-link {
   color: #69778c;
-  /* background: linear-gradient(90deg, rgba(174,14,227,1) 0%, rgba(0,212,255,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+
 }
-/* .nav-link:hover {
-  color: #69778c;
-  text-decoration: underline;
-} */
 
 .social{
   padding: 10px;
+  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+span.nav-link{
+  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

@@ -1,12 +1,12 @@
 ---
 title: Hello World
 date: 2021/05/02
-description: My First Blog.
+description: My first blog post.
 tag: Personal
 author: You
 ---
 
 # Hello World
 
-## this is the content
-yes this is also the content
+## Hello World
+this is my first NextJs website
