@@ -1,7 +1,7 @@
 ---
 type: posts
-title: Blog Posts
-date: 2021-03-18
+title: Posts
+date: 2022/05/02
 ---
 
 # My Thoughts

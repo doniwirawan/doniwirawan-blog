@@ -1,7 +1,7 @@
 ---
-title: Hello World
-date: 2021/05/02
-description: My first blog post.
+title: Hello World (A introduction)
+date: 2022/05/02
+description: Introduction.
 tag: Personal
 author: You
 ---
@@ -9,4 +9,4 @@ author: You
 # Hello World
 
 ## Hello World
-this is my first NextJs website
+Hello i'm Doni Wirawan, I'm a Web Developer for the past 2 years, so far i have worked for several projects such as [emasestate.com](https://emasestate.com), [vastbali.com](https://vastbali.com), [ptahbali.com](https://ptahbali.com) etc. So far, the technology I use starts from Wordpress, Laravel, NodeJs.
