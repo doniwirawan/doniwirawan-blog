@@ -11,6 +11,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta name="robots" content="follow, index" />
+        <meta name="google-site-verification" content="bLGNOg9yVKEXXtq7xBH5_OmAOjYh5Yg4WZ9r_6euA7A" />
         <meta name="description" content={meta.description} />
         <meta property="og:site_name" content={meta.title} />
         <meta property="og:description" content={meta.description} />
