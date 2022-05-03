@@ -1,7 +1,7 @@
 const YEAR = new Date().getFullYear()
 
 export default {
-  titleSuffix: ' – Doni wirawan',
+  titleSuffix: ' – Doni Wirawan',
   nextLinks: true,
   prevLinks: true,
   search: true,
