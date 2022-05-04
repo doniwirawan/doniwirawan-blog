@@ -26,6 +26,14 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TN577WM2C1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-TN577WM2C1');
+        </script>
       </body>
     </Html>
   )
