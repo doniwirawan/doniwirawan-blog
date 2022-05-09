@@ -1,10 +1,12 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import Image from 'next/image'
+
 
 export default function Document() {
   const meta = {
     title: 'Doni Wirawan Personal Website',
     description: 'CS Student | Web Developer | 20',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+    image: '/images/potrait.jpg'
   }
 
   return (
@@ -22,6 +24,9 @@ export default function Document() {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icon.png"></link>
+        <meta name="theme-color" content="#fff" />
       </Head>
       <body>
         <Main />
