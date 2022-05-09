@@ -1,5 +1,5 @@
 const YEAR = new Date().getFullYear()
-import Comment from './_comment'
+import Comment from './pages/_comment'
 
 export default {
   titleSuffix: ' – Doni Wirawan',
