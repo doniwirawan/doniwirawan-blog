@@ -76,6 +76,15 @@ span.nav-link{
   -webkit-text-fill-color: transparent;
   text-decoration: underline !important;
 }
+
 a.nav-link{
   text-decoration: none;
+}
+
+.comment{
+  width: 100px !important;
+}
+
+.center{
+  margin: 0 auto !important;
 }

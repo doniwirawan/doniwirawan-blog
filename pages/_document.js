@@ -1,5 +1,7 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 import Image from 'next/image'
+import Footer from './Footer'
+
 
 export default function Document() {
   const meta = {
@@ -30,6 +32,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <Footer />
       </body>
     </Html>
   )
