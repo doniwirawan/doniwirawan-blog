@@ -1,6 +1,6 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 import Image from 'next/image'
-
+import Comment from './_comment'
 
 export default function Document() {
   const meta = {
@@ -31,6 +31,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <Comment />
       </body>
     </Html>
   )
