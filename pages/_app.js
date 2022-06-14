@@ -7,14 +7,14 @@ import Comment from './_comment'
 export default function Nextra({ Component, pageProps }) {
   return (
     <>
-      <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-TN577WM2C1`} />
+      <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-K3SYFGNC9W`} />
 
       <Script strategy="lazyOnload">
         {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
-                    gtag('config', 'G-TN577WM2C1', {
+                    gtag('config', 'G-K3SYFGNC9W', {
                     page_path: window.location.pathname,
                     });
                 `}
