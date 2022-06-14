@@ -1,12 +1,11 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import Image from 'next/image'
 import Footer from './Footer'
 
 
 export default function Document() {
   const meta = {
     title: 'Doni Wirawan Personal Website',
-    description: 'CS Student | Web Developer | 20',
+    description: 'Doni Wirawan | CS Student | Web Developer | 20 | Aspiring software engineer',
     image: '/images/potrait.jpg'
   }
 
